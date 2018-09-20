@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>ACCEDERE</p>
+
+
+<form action="/action_page.php">
+NOME:
+<input type="text" name="firstname">
+<br>
+PASSWORD:
+<input type="text" name="lastname">
+<br><br>
+<input type="submit" value="PROCEDI">
+</form> 
+
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> BENVENUTI</title>
+ </head>
+  <body>
+    <p> ciao sono ALEX benvenuti</p>
+ <img src= "psg-nike (1).jpg" alt= " psg-nike (1) picture" />
+ </body>
+</html>
