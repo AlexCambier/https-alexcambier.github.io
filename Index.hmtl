@@ -1,4 +1,20 @@
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Submit Button</h2>
+
+<form action="/action_page.php">
+Nome:
+<input type="text" name="firstname"> <br>
+PASSWORD:
+<input type="text" name="lastname">
+<br>
+<input type="submit" value="procedi">
+</form> 
+</body>
+</html>
 
 <!DOCTYPE html>
 <html>
