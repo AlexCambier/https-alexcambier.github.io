@@ -15,7 +15,8 @@ PASSWORD:
 </form> 
 </body>
 </html>
-
+if value== ciao
+alert(procedi)
 <!DOCTYPE html>
 <html>
 <head>
