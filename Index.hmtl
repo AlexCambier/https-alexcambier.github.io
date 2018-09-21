@@ -9,9 +9,9 @@
 Nome:
 <input type="text" name="firstname"> <br>
 PASSWORD:
-<input type="text" name="lastname" value=="ciao">
+<input type="text" name="lastname">
 <br>
-<input type="submit" value="procedi">
+<input type="submit" value=="procedi">
 </form> 
 </body>
 </html>
