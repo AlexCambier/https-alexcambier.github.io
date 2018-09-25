@@ -7,8 +7,8 @@
  </script>
 <p>Accedi</p>
  <p> nome: <input type="text" name="firstname"> </p>
- <p>password:<input type=="password" id="password"></p>
+ <p>password:<input type="password" id="password"></p>
 <br>
- <p>accedi:<input type="submit" value="procedi" onClick="controllo()"/></p>
+ <p>accedi:<input type="button" value="procedi" onClick="controllo()"/></p>
 </form>
  </html>
