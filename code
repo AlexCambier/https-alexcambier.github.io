@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<body>
 <script TYPE="text/javascript">
  function controllo(){
          if (document.getElementById("password").value=="98345"){document.write("benvenuto password corretta")}}
@@ -11,5 +10,5 @@
  <p>password:<input type=="password" id="password"></p>
 <br>
  <p>accedi:<input type="submit" value="procedi" onClick="controllo()"/></p>
-</body>
+</form>
  </html>
