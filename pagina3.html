@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<p>clicca sul pulsante per far comparire u numero tra 1 e 10..</p>
+
+<button onclick="myFunction()">clicca</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = Math.floor((Math.random() * 15) + 1);
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
