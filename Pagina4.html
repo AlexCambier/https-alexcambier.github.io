@@ -10,18 +10,13 @@
   <body>
     body{
    background-color:yellow;}
-   <p id="titolo"> interrogazione </p>
+   <p id="titolo">INTERROGAZIONE </p>
     
 
    <input type="button" id="button" value="ESTRAI!!!" onClick="estrazione()"/>
    <div>
    <ul>
-   <li>DAVID</li>
-   <li>GABRIEL</li>
-   <li>LEO</li>
-   <li>NICOLO'</li>
-   <li>ROMINA</li>
-   <li>SIMON</li> <li>IDAN</li>
+    <li>IDAN</li>
    <li>ALEX</li>
    <li>LEAM</li>
    <li>SACHA</li>
@@ -37,10 +32,11 @@
   <script>
     var titolo = document.getElementById("titolo");
     console.log(titolo);
-    titolo.style.backgroundColor = "white";
+    titolo.style.backgroundColor = "blue";
     titolo.style.textAlign = "center";
+   titolo.style.fontFamily="serif";
     
-    var lista = ["IDAN","ALEX","LEAM","SACHA","MICHELLE","ISAAC","JACOPO","GADI","NOEMI","DAVID","GABRIEL","LEO","NICOLO'","ROMINA","SIMON"];
+    var lista = ["IDAN","ALEX","LEAM","SACHA","MICHELLE","ISAAC","JACOPO","GADI","NOEMI"];
     
     function estrazione() {
      var x = Math.floor(Math.random() * lista.length); 
