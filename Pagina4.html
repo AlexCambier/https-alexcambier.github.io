@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+ <!DOCTYPE html>
+<html>
+<head>
+
+  <head>
   <body>
-    <h1 id="id-name"> ciao a tutti<h1>
-      <script>
-        var idnameEl==document.getElementById("id-name");
-        idnameEL.innerHTML=="ALEX";
-      </script>
-      </body>
-      </html>
+    <h1 id="titolo"> interrogazione </h1>
+    
+
+   <input type="button" id="button" value="ESTRAI!!!" onClick="scegli()"/>
+  
+  
+    <br>
+    <p>L'INTERROGATO e''</p> 
+   <input id="nome"  type="text">
+   
+   
+   
+   
+   <div>
+   <ul>
+   <li>DAVID</li>
+   <li>GABRIEL</li>
+   <li>LEO</li>
+   <li>NICOLO'</li>
+   <li>ROMINA</li>
+   <li>SIMON</li> <li>IDAN</li>
+   <li>ALEX</li>
+   <li>LEAM</li>
+   <li>SACHA</li>
+   <li>MICHELLE</li>
+   <li>ISAAC</li>
+   <li>JACOPO</li>
+   <li>GADI</li>
+   <li>NOEMI</li>
+   </ul>
+   </div>
+  
+   
+  <script>
+    var titolo = document.getElementById("titolo");
+    console.log(titolo);
+    titolo.style.backgroundColor = "white";
+    titolo.style.textAlign = "center";
+    
+    var lista = ["IDAN","ALEX","LEAM","SACHA","MICHELLE","ISAAC","JACOPO","GADI","NOEMI","DAVID","GABRIEL","LEO","NICOLO'","ROMINA","SIMON"];
+    
+    function estrazione() {
+     var x = Math.floor(Math.random() * lista.length); 
+     document.getElementById("nome").value += "," + lista[x]
+     var fuori = document.getElementsByTagName("li");
+     fuori[x].style.backgroundColor = "red";
+     }
+    
+   
+</script>
+    
+   
+    
+</body>
+</html>    
       
