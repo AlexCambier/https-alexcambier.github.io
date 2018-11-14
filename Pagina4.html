@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+ <!DOCTYPE html>
+<html>
+<head>
+
+  <head>
   <body>
-   <style> 
+      <style> 
     body{
    background-color:yellow;}
    </style>
-   <p id="titolo">INTERROGAZIONE </p>
+    <h1 id="titolo"> interrogazione </h1>
     
 
-   <input type="button" id="button" value="ESTRAI!!!" onClick="estrazione()"/>
+   <input type="button" id="button" value="ESTRAI!!!" onClick="scegli()"/>
+   
    <div>
    <ul>
-    <li>IDAN</li>
+   <li>IDAN</li>
    <li>ALEX</li>
    <li>LEAM</li>
    <li>SACHA</li>
@@ -20,6 +28,7 @@
    <li>JACOPO</li>
    <li>GADI</li>
    <li>NOEMI</li>
+    
    </ul>
    </div>
   
@@ -27,25 +36,24 @@
   <script>
     var titolo = document.getElementById("titolo");
     console.log(titolo);
-    titolo.style.backgroundColor = "blue";
+    titolo.style.backgroundColor = "yellow";
     titolo.style.textAlign = "center";
-   titolo.style.fontFamily="serif";
     
     var lista = ["IDAN","ALEX","LEAM","SACHA","MICHELLE","ISAAC","JACOPO","GADI","NOEMI"];
     
-    function estrazione() {
+    function scegli() {
      var x = Math.floor(Math.random() * lista.length); 
      document.getElementById("nome").value += "," + lista[x]
      var fuori = document.getElementsByTagName("li");
-     fuori[x].style.color = "red";
+     fuori[x].style.backgroundColor = "green";
      }
     
+ 
    
 </script>
-   
     
    
     
 </body>
-</html>    
+</html>   
       
